@@ -11,4 +11,16 @@ class ClientController extends Controller
 
         return view('client.Home');
     }
+    function Shop(){
+
+        return view('client.Shop');
+    }
+    function Cart(){
+
+        return view('client.Cart');
+    }
+    function Check(){
+
+        return view('client.check');
+    }
 }

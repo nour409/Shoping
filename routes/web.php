@@ -14,6 +14,10 @@ use App\Http\Controllers\ClientController;
 */
 
 Route::get('/', [ClientController::class,'Home']);
+Route::get('/Shop', [ClientController::class,'Shop']);
+Route::get('/Cart', [ClientController::class,'Cart']);
+Route::get('/Check', [ClientController::class,'Check']);
+
 /*
 Route::get('/dashboard', function () {
     return view('dashboard');
