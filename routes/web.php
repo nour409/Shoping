@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +19,11 @@ Route::get('/', [ClientController::class,'Home']);
 Route::get('/Shop', [ClientController::class,'Shop']);
 Route::get('/Cart', [ClientController::class,'Cart']);
 Route::get('/Check', [ClientController::class,'Check']);
+Route::get('/LoginClient', [ClientController::class,'login']);
+Route::get('/SginClient', [ClientController::class,'sgin']);
+Route::get('/dashboard', [AdminController::class,'dash']);
+Route::get('/addcatogry', [AdminController::class,'addcatogry']);
+Route::get('/catogry', [CategoryController::class,'View']);
 
 /*
 Route::get('/dashboard', function () {

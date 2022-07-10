@@ -23,4 +23,12 @@ class ClientController extends Controller
 
         return view('client.check');
     }
+    function login(){
+
+        return view('client.login');
+    }
+    function sgin(){
+
+        return view('client.sgin');
+    }
 }

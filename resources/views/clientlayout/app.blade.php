@@ -63,6 +63,7 @@
 			  <li class="nav-item active"><a href="\Shop" class="nav-link">shop</a></li>
 	          
 	          <li class="nav-item cta cta-colored"><a href="\Cart" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+            <li class="nav-item cta cta-colored " style="margin-left: 45%"><a href="\LoginClient" class="nav-link">Login</a></li>
 
 	        </ul>
 	      </div>
